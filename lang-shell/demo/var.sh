@@ -17,6 +17,7 @@ readonly myblog
 
 
 # 删除变量: unset
+# 使用readonly之后, 再使用unset也会报错,提示变量readonly
 mygithub="githu.com/mozss"
 unset mygithub
 #echo $mygithub 写入这句, 不会输出任何内容
